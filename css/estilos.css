@@ -1,0 +1,89 @@
+/*
+elemento{
+    propiedad: valor;
+}
+*/
+
+/*
+h3{
+    color:rgb(60, 6, 167);
+}*/
+#body{ background-image: linear-gradient(to left,rgb(252, 208, 208),rgb(190, 190, 238), rgb(235, 206, 211),rgb(250, 225, 176));}
+
+/*SOBRE MI */
+#Sobre_mi h3 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  15px; 
+    text-align: center;
+}
+#Sobre_mi a{color:rgb(62, 52, 196);}
+#Sobre_mi img{ height: 50vh/*cambiar el tamaño de una imagen*/;}
+#Sobre_mi video{ 
+    height:50vh;
+    align-items: center;
+}
+#Sobre_mi h2{
+    font-size: 38px;
+    color: rgb(114, 28, 85);
+    text-align:center}
+#Sobre_mi p{
+    margin: 20px 40px 40px 20px;
+    font-size: 20px;
+    text-align:center ;
+}
+/*SERVICIOS*/
+#Servicios { background-color: rgb(241, 204, 223);}
+#Servicios h3{color:rgb(92, 12, 72)}
+#Servicios a{color:rgb(16, 17, 15)}
+#Servicios h2{
+    font-size: 48px;
+    color: rgb(97, 44, 80);
+    text-align:center; }
+
+
+.lista{font-size: 20px;
+        margin:20px 10px 10px 20px ;
+        text-align:center;
+        }
+.lista_color{background-color:aliceblue;}/* estilo de letre y color de la letra para los que son h1*/
+/*LETRA*/
+h1{
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    text-shadow:3px 4px 2px rgb(230, 145, 145);}
+
+/*CONTACTO*/
+#Contacto img{ height: 50vh;
+               background-position: center;}/*cambiar el tamaño de una imagen*/
+#Contacto h2{
+                font-size: 48px;
+                color: rgb(97, 44, 80);
+                text-align:center; }
+            
+
+#menu{
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;}
+#kk{
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;
+    margin: 20px 40px 40px 20px;}
+
+#PAGUINA img{ height: 45vh;
+    margin: 2px 0px 0px 2px;}
+#PAGUINA {background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c379d074283085.5c2a290f4d98b.jpg);
+          height: 80vh;
+          background-size: 100% 100%;
+        }
+#PAGUINA a{ height: 20vh;
+            font-size: 20px;}
+
+
